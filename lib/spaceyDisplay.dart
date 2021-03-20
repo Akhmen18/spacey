@@ -170,7 +170,7 @@ class _SpaceyDisplayState extends State<SpaceyDisplay> {
                 ),
               ),
               Container(
-                height: MediaQuery.of(context).size.height / 2,
+                height: MediaQuery.of(context).size.height / 3,
                 color: (this._isDark) ? kBackgroundDark : kBackgroundLight,
                 child: Padding(
                   padding: const EdgeInsets.fromLTRB(10.0, 2.5, 10.0, 0.0),

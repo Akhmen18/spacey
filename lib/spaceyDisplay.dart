@@ -75,8 +75,8 @@ class _SpaceyDisplayState extends State<SpaceyDisplay> {
             child: Padding(
               padding: const EdgeInsets.all(20.0),
               child: Center(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
+                child: ListView(
+                  //crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
                       'Made and Designed by Akhil',
@@ -151,29 +151,11 @@ class _SpaceyDisplayState extends State<SpaceyDisplay> {
         ),
         backgroundColor: (this._isDark) ? kBackgroundDark : kBackgroundLight,
         body: SafeArea(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+          child: ListView(
+            //mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              // Container(
-              //   child: Padding(
-              //     padding: const EdgeInsets.fromLTRB(0.0, 10, 0.0, 5.0),
-              //     child: Card(
-              //       elevation: elavationVal,
-              //       color: Color(0xff242424).withOpacity(cardOpacity),
-              //       child: Padding(
-              //         padding: const EdgeInsets.all(8.0),
-              //         child: Text(
-              //           '$_name',
-              //           textAlign: TextAlign.center,
-              //           style: kNameTextStyle.copyWith(
-              //               color: Color(0xFFccffbd).withOpacity(textOpacity)),
-              //         ),
-              //       ),
-              //     ),
-              //   ),
-              // ),
               Container(
-                //height: MediaQuery.of(context).size.height / 3,
+                //height: MediaQuery.of(context).size.height / 2,
                 child: Padding(
                   padding: const EdgeInsets.fromLTRB(10.0, 5.0, 10.0, 2.5),
                   child: Card(
@@ -188,7 +170,7 @@ class _SpaceyDisplayState extends State<SpaceyDisplay> {
                 ),
               ),
               Container(
-                height: MediaQuery.of(context).size.height / 2.8,
+                height: MediaQuery.of(context).size.height / 2,
                 color: (this._isDark) ? kBackgroundDark : kBackgroundLight,
                 child: Padding(
                   padding: const EdgeInsets.fromLTRB(10.0, 2.5, 10.0, 0.0),

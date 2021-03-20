@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const kApiKey = 'API-KEY';
+const kApiKey = 'apiKey';
 
 const kNameTextStyle = TextStyle(
   fontFamily: 'SpaceGrotesk',

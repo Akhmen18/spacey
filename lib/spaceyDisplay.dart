@@ -75,8 +75,8 @@ class _SpaceyDisplayState extends State<SpaceyDisplay> {
             child: Padding(
               padding: const EdgeInsets.all(20.0),
               child: Center(
-                child: ListView(
-                  //crossAxisAlignment: CrossAxisAlignment.start,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
                       'Made and Designed by Akhil',
@@ -151,8 +151,8 @@ class _SpaceyDisplayState extends State<SpaceyDisplay> {
         ),
         backgroundColor: (this._isDark) ? kBackgroundDark : kBackgroundLight,
         body: SafeArea(
-          child: ListView(
-            //mainAxisAlignment: MainAxisAlignment.center,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
                 //height: MediaQuery.of(context).size.height / 2,

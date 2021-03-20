@@ -2,7 +2,7 @@
     package="com.akhilmn18.spacey">
     <uses-permission android:name="android.permission.INTERNET" />
    <application
-        android:label="spacey"
+        android:label="Spacey"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

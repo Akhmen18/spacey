@@ -1,16 +1,9 @@
 # spacey
 
-A new Flutter application.
+A flutter that shows Image of the day with other information using NASA's APOD API
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p>
+    Screenshot:
+    <br>
+    <img src="https://github.com/Akhmen18/spacey/blob/main/SS1.png" height=500px>
+    <img src="https://github.com/Akhmen18/spacey/blob/main/SS2.png" height=500px>

@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.akhilmn18.spacey">
+    <uses-permission android:name="android.permission.INTERNET" />
    <application
         android:label="spacey"
         android:icon="@mipmap/ic_launcher">
